@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+
+}
+
+.calc-div {
+    margin-top: 10em;
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 17em;
+    height: 25em;
+    padding: .5em;
+}
+
+.input-div {
+    text-align: end;
+    padding: .5em;
+    height: 5em;
+    color: white;
+}
+
+.input-sub {
+    height: 30%;
+
+}
+
+.input-main {
+    font-size: 2.5em;
+    margin-top: .2em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 70%;
+}
+
+
+.input-main::-webkit-scrollbar {
+    width: 1em;
+    height: .04em;
+}
+
+.input-main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 -2px rgba(0, 0, 0, 0.685);
+}
+
+.input-main::-webkit-scrollbar-thumb {
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+.calc-btns {
+    display: flex;
+    flex-direction: column;
+    height: 17.5em;
+}
+
+.calc-btn {
+    flex: 1 1 100%;
+    color: white;
+    display: flex;
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+
+.clear-all {
+    background-color: white;
+    font-weight: bold;
+    padding: .2em;
+    width: 15%;
+    height: 1.5em;
+    text-align: center;
+    margin-bottom: .7em;
+}
+
+.clear-all:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+a {
+    background-color: rgba(0, 0, 0, 0.616);
+    margin: .05em 0 .05em .05em;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.special-char {
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.submit {
+    background-color: rgba(0, 0, 0, 0.432);
+}
